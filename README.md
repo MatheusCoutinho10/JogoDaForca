@@ -59,7 +59,7 @@ Agora falando sobre a aplicação, uma pessoa insere a palavra que quer que a ou
 git clone https://github.com/MatheusCoutinho10/JogoDaForca
 
 # entrar na pasta do executável
-cd Jogo da Forca\bin\Debug
+cd JogoDaForca\Jogo da Forca\bin\Debug
 
 # executar o projeto
 JogoDaForca spring-boot:run
