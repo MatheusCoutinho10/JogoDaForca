@@ -5,3 +5,10 @@ C:\Users\couti\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da F
 C:\Users\couti\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csproj.GenerateResource.Cache
 C:\Users\couti\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.exe
 C:\Users\couti\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.pdb
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\bin\Debug\Jogo da Forca.exe
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\bin\Debug\Jogo da Forca.pdb
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\obj\Debug\Jogo da Forca.csprojResolveAssemblyReference.cache
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\obj\Debug\Jogo_da_Forca.MainForm.resources
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\obj\Debug\Jogo da Forca.csproj.GenerateResource.Cache
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\obj\Debug\Jogo da Forca.exe
+C:\Users\Matheus.coutinho\Documents\GitHub\JogoDaForca\Jogo da Forca\obj\Debug\Jogo da Forca.pdb

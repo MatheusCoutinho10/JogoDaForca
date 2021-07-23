@@ -10,6 +10,7 @@ namespace Jogo_da_Forca
 		public MainForm()
 		{
 			InitializeComponent();
+			panel1.Enabled = false;
 		}
 		
 		int contErros = 0;
@@ -18,24 +19,27 @@ namespace Jogo_da_Forca
 		void Button1Click(object sender, EventArgs e)
 		{
 			//Botão Esconder
-			textBox1.Visible = false;
-			string aux = "";
+			if((textBox1.Text).Replace(" ", "") != ""){
+				textBox1.Visible = false;
+				string aux = "";
 			
-			foreach (char letra in textBox1.Text)
-			{
-				aux += "?";
+				foreach (char letra in (textBox1.Text).Replace(" ", ""))
+				{
+					aux += "?";
+				}
+			
+				label1.Text = aux;
+			
+				button1.Visible = false;
+				button2.Visible = false;
+				panel1.Enabled = true;
 			}
-			
-			label1.Text = aux;
-			
-			button1.Visible = false;
-			button2.Visible = false;
 		}
 		
 		void Button3Click(object sender, EventArgs e)
 		{
 			char letraChutada = (sender as Button).Text[0];
-			string palavra = textBox1.Text;
+			string palavra = (textBox1.Text).Replace(" ", "");
 			int cont = 0;
 			string aux = "";
 			int i = 0;
@@ -54,14 +58,16 @@ namespace Jogo_da_Forca
 			}
 			
 			if (cont != 0)
-			{//Acertou
+			{
+				//Acertou
 				MessageBox.Show("A letra aparece na palavra "+ cont +" vezes!");
 				label1.Text = aux;
 				 (sender as Button).Enabled = false;
                  (sender as Button).BackColor = Color.Green;
 			}
 			else
-			{//Errou
+			{
+				//Errou
 				MessageBox.Show("A letra não aparece na palavra");
 				contErros++;
 				pictureBox1.Load("Forca" + contErros + ".jpg");
@@ -114,10 +120,12 @@ namespace Jogo_da_Forca
 			
 			button2.Visible = false;
 			button1.Visible = false;
+			panel1.Enabled = true;
 		}
 		
 		void Button29Click(object sender, EventArgs e)
-		{//Botão Reiniciar
+		{
+			//Botão Reiniciar
 			Button[] botoes = {button3, button4, button5, button6, button7, button8, button9, button10, button11, button12, button13, button14, button15, button16, button17, button18, button19, button20, button21, button22, button23, button24, button25, button26, button27, button28};
 			foreach (Button botao in botoes)
 			{
@@ -130,7 +138,6 @@ namespace Jogo_da_Forca
 			button1.Visible = true;
 			button2.Visible = true;
 			textBox1.Text = "";
-			panel1.Enabled = true;
 		}
 	}
 }
