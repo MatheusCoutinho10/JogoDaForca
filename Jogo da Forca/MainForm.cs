@@ -138,6 +138,7 @@ namespace Jogo_da_Forca
 			button1.Visible = true;
 			button2.Visible = true;
 			textBox1.Text = "";
+			panel1.Enabled = false;
 		}
 	}
 }
